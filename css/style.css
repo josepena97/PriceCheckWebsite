@@ -1,0 +1,193 @@
+/* Vars */
+:root {
+    --theme-color: #FC766AFF;
+    /*(#5B84B1FF) */
+}
+/* Logo */
+.logo {
+    font-size: 2.1em;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 1em;
+}
+
+/*home image*/
+#home_image{
+    height: 3em;
+    width: 3em;
+}
+/* HTML */
+html {
+    position: relative;
+    min-height: 100%;
+}
+/* Font family */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
+    font-size: 1.2em;
+
+}
+main{
+
+    color: black;
+    padding: 1em;
+    background-color: aliceblue;
+
+}
+
+.bg-theme {
+    background-color: var(--theme-color) !important;
+}
+
+/* Nav */
+.nav-link {
+    font-size: 1em !important;
+    color: white !important;
+    padding-bottom: 1px;
+    border-bottom: 1.5px solid var(--theme-color);
+}
+.nav-link:hover {
+    border-bottom: 1.5px solid white;
+}
+.navbar-brand {
+    color: white !important;
+    border: 1.5px solid white;
+    border-radius:5px;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+/* Dropdown */
+.dropdown-item:hover {
+    color: white;
+    background-color: var(--theme-color);
+}
+
+
+/* Custom */
+
+.lead {
+    font-size: 1.5em;
+    text-align: justify;
+}
+.bordered {
+    padding: 15px;
+    border: 1.5px solid var(--theme-color);
+    border-radius: 4px;
+}
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the page */
+}
+
+/* Lower */
+.lower {
+    margin-bottom: 2.5px;
+    margin-right: 10px;
+}
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: var(--theme-color);
+    color: lightblue;
+    padding: 0 15px;
+
+}
+header{
+    position: relative;
+    width: 100%;
+    clear: both;
+    height: 3.9em;
+
+}
+
+.container {
+    width: auto;
+    padding: 0 15px;
+}
+
+
+#immg{
+    height: 2.2em;
+    width: 2.2em;
+}
+/* logo when header is recized
+#titi{
+    font-size: 2.1em;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 4em;
+    font-weight: bold;
+}*/
+
+.display{
+    padding: 0.3em;
+    font-size: 2.3em;
+    color: #5B84B1FF;
+}
+.jumbotron{
+    padding: 1em;
+
+}
+.prods{
+    overflow: auto;
+    height: 23em;
+
+
+}
+.prods .row{
+    border: 2px dotted;
+    border-color: #FC766AFF;
+    margin-top:0.5em
+
+}
+/* Dotted border */
+#stores {
+    border: 2px dotted;
+    padding-left: 1.3em;
+    border-color: #FC766AFF;
+
+}
+#filter{
+    border: 2px dotted;
+    padding-left: 1.3em;
+    border-color: #FC766AFF;
+    height: 22em;
+}
+#prodcontainer{
+    border: 2px solid;
+    padding: 1.3em;
+    border-color: #FC766AFF;
+}
+.product{
+    padding: 1em;
+}
+
+#splitborder{
+  border-top: 1px solid lightgrey;
+}
+/*allign col elements to rigth */
+.colrigth{
+    text-align: right;
+}
+/* css for error*/
+#errorpw{
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+}
+/* css for succes */
+#succes{
+    color: green;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
