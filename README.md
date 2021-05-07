@@ -6,3 +6,4 @@ The scraper will retrieve the prices and products from given stores and store th
 * Password Reset System that creates unique time-constrained tokens that allow the user to reset his/her password via email.
 * Web Scraper that retrieves relevant product info from various stores and saves them in database.
 * Filters that allow the user to filter products based on specific parameters such as price, store, or product type.
+* Full database integration (MySQL) to store users, stores and products
